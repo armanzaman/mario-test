@@ -1,0 +1,201 @@
+.i {
+  position: absolute;
+  top: 13px;
+  left: 32px;
+  background-color: var(--color-gray-100);
+  width: 23px;
+  height: 15px;
+  display: none;
+}
+.specialtyCardsIcon {
+  position: absolute;
+  top: 16px;
+  left: 37px;
+  width: 21px;
+  height: 24px;
+  overflow: hidden;
+  z-index: 1;
+}
+.div2 {
+  align-self: stretch;
+  height: 56px;
+  position: relative;
+  border-radius: var(--br-9980xl);
+  background-color: var(--color-cadetblue);
+}
+.primaryCare {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  min-width: 88px;
+}
+.specialtyNames {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px var(--padding-9xs);
+}
+.div1 {
+  flex: 1;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-base) var(--padding-lg);
+  box-sizing: border-box;
+  gap: var(--gap-smi);
+  max-width: 128px;
+}
+.i1 {
+  position: absolute;
+  top: 14px;
+  left: 16px;
+  background-color: var(--color-gray-100);
+  width: 24px;
+  height: 29px;
+  display: none;
+}
+.frameIcon {
+  position: absolute;
+  top: 17px;
+  left: 36px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  z-index: 1;
+}
+.ctScan {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  min-width: 58px;
+}
+.ctScanWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px var(--padding-lgi);
+}
+.frameIcon1 {
+  position: absolute;
+  top: 13px;
+  left: 36px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.mri {
+  flex: 1;
+  position: relative;
+}
+.mriWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px var(--padding-15xl) 0px var(--padding-16xl);
+}
+.frameIcon2 {
+  position: absolute;
+  top: 15px;
+  left: 34px;
+  width: 27px;
+  height: 24px;
+  overflow: hidden;
+}
+.xRay {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  min-width: 41px;
+}
+.xRayWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-8xl) 0px var(--padding-9xl);
+}
+.div7 {
+  flex: 1;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-base) var(--padding-lg);
+  box-sizing: border-box;
+  gap: var(--gap-smi);
+  max-width: 128px;
+}
+.frameIcon3 {
+  position: absolute;
+  top: 15px;
+  left: 39px;
+  width: 18px;
+  height: 24px;
+  overflow: hidden;
+}
+.div {
+  flex: 1;
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px var(--padding-14xl) var(--padding-base) 0px;
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.specialtiesContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-301xl) 0px var(--padding-332xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-steelblue-100);
+  font-family: var(--font-inter);
+}
+
+@media screen and (max-width: 1100px) {
+  .div {
+    flex-wrap: wrap;
+    padding-left: var(--padding-xl);
+    padding-top: var(--padding-base);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .specialtiesContainer {
+    padding-left: var(--padding-156xl);
+    padding-right: var(--padding-141xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .specialtiesContainer {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

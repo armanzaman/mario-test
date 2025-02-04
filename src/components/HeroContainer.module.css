@@ -1,0 +1,375 @@
+.mario {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: -1.1px;
+  line-height: 24px;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  min-width: 66px;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-7xs) 0px 0px;
+}
+.browseMenu {
+  width: 78.4px;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-base);
+  color: var(--color-darkslategray-200);
+}
+.savings {
+  font-family: var(--font-inter);
+  font-size: var(--font-size-base);
+  color: var(--color-darkslategray-200);
+}
+.menu {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.heroRight {
+  width: 352.4px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px 0px var(--padding-7xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.signIn {
+  text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  min-width: 53px;
+  flex-shrink: 0;
+}
+.signInButton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0px 0px;
+}
+.signUp {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  min-width: 59px;
+}
+.button {
+  cursor: pointer;
+  border: none;
+  padding: var(--padding-3xs) var(--padding-sm) var(--padding-3xs)
+    var(--padding-base);
+  background-color: var(--color-cadetblue);
+  flex: 1;
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+}
+.button:hover {
+  background-color: var(--color-teal);
+}
+.userActions {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xl-2);
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-darkslategray-200);
+}
+.heroCenter {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-steelblue-100);
+  font-family: var(--font-inter);
+}
+.before {
+  font-weight: 700;
+}
+.knowWhatYoureContainer {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 48px;
+  font-family: inherit;
+}
+.input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: var(--color-white);
+  height: 24px;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-family: var(--font-inria-sans);
+  font-weight: 700;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkgray);
+  min-width: 161px;
+}
+.div2 {
+  width: 293px;
+  background-color: var(--color-gray-100);
+  border-right: 1px solid var(--color-lightgray-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs);
+}
+.locationPinIcon {
+  width: 12px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.locationIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0px 0px;
+}
+.input1 {
+  width: calc(100% - 36px);
+  border: none;
+  outline: none;
+  background-color: var(--color-white);
+  height: 24px;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-family: var(--font-inria-sans);
+  font-weight: 700;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkgray);
+  min-width: 161px;
+}
+.div3 {
+  align-self: stretch;
+  background-color: var(--color-gray-100);
+  border-right: 1px solid var(--color-lightgray-100);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs);
+  gap: var(--gap-5xs);
+}
+.locationInput {
+  width: 305px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-xs) 0px 0px;
+  box-sizing: border-box;
+}
+.insuranceDropdownIcon {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.insuranceIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-5xs) 0px 0px;
+}
+.chooseInsurance {
+  width: 137px;
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.input2 {
+  align-self: stretch;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.insuranceInput {
+  width: 244px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0px 0px;
+  box-sizing: border-box;
+}
+.div1 {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-100);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-12xs) var(--padding-mini);
+  flex-shrink: 0;
+  max-width: 100%;
+  row-gap: 20px;
+}
+.div {
+  width: 896px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 10px 15px rgba(0, 0, 0, 0.1);
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 0px 0px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.searchBar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px var(--padding-23xl) 0px var(--padding-24xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkgray);
+}
+.searchContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-16xl);
+  max-width: 100%;
+}
+.searchContainerWrapper {
+  width: 1281.4px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.heroLeft {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-58xl);
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.heroContainer {
+  width: 1424.4px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-45xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--color-steelblue-100);
+  font-family: var(--font-inria-sans);
+}
+
+@media screen and (max-width: 1100px) {
+  .div1 {
+    flex-wrap: wrap;
+  }
+
+  .searchBar {
+    padding-left: var(--padding-2xl);
+    padding-right: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .userActions {
+    display: none;
+  }
+
+  .knowWhatYoureContainer {
+    font-size: var(--font-size-19xl);
+    line-height: 38px;
+  }
+
+  .searchContainer {
+    gap: var(--gap-mid);
+  }
+
+  .heroLeft {
+    gap: var(--gap-19xl);
+  }
+
+  .heroContainer {
+    padding-left: var(--padding-13xl);
+    padding-right: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .knowWhatYoureContainer {
+    font-size: var(--font-size-10xl);
+    line-height: 29px;
+  }
+
+  .div3 {
+    flex-wrap: wrap;
+  }
+
+  .heroLeft {
+    gap: var(--gap-lgi);
+  }
+}

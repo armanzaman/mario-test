@@ -1,0 +1,237 @@
+.comparisonHeadersIcon {
+  position: absolute;
+  top: 20px;
+  left: 18.5px;
+  width: 27px;
+  height: 24px;
+  overflow: hidden;
+}
+.div2 {
+  height: 64px;
+  width: 64px;
+  position: relative;
+  border-radius: var(--br-9980xl);
+  background-color: var(--color-lightsteelblue);
+}
+.comparisonCards {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-84xl) 0px var(--padding-83xl);
+}
+.compareMedicationPrices {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+}
+.comparisonContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.comparisonItems {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-6xl) 0px var(--padding-4xl);
+}
+.findTheBest {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 16px;
+  color: var(--color-lightslategray-100);
+}
+.div1 {
+  flex: 0.9755;
+  background-color: var(--color-gray-100);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-19xl) var(--padding-15xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  min-width: 296px;
+  max-width: 100%;
+}
+.frameIcon {
+  position: absolute;
+  top: 20px;
+  left: 17px;
+  width: 30px;
+  height: 24px;
+  overflow: hidden;
+}
+.divWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-48xl) 0px var(--padding-47xl);
+}
+.divInner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px var(--padding-44xl) 0px var(--padding-46xl);
+}
+.div3 {
+  flex: 1;
+  background-color: var(--color-whitesmoke-100);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-16xl) var(--padding-15xl)
+    var(--padding-14xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  min-width: 296px;
+  max-width: 100%;
+}
+.frameIcon1 {
+  position: absolute;
+  top: 20px;
+  left: 21.5px;
+  width: 21px;
+  height: 24px;
+  overflow: hidden;
+}
+.divContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-103xl) 0px var(--padding-101xl);
+}
+.findProviders {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.findProvidersWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-64xl) 0px var(--padding-63xl);
+}
+.locateHealthcareProviders {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 16px;
+  color: var(--color-lightslategray-100);
+}
+.div5 {
+  flex: 0.9388;
+  background-color: var(--color-gray-100);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-25xl) var(--padding-35xl);
+  box-sizing: border-box;
+  gap: var(--gap-lgi);
+  min-width: 296px;
+  max-width: 100%;
+}
+.div {
+  width: 1248px;
+  background-color: var(--color-gray-100);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+}
+.priceComparison {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px var(--padding-48xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-inter);
+}
+
+@media screen and (max-width: 1275px) {
+  .priceComparison {
+    padding-left: var(--padding-14xl);
+    padding-right: var(--padding-14xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .div {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .div {
+    gap: var(--gap-base);
+  }
+}
+@media screen and (max-width: 450px) {
+  .comparisonCards {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+
+  .compareMedicationPrices {
+    font-size: var(--font-size-base);
+    line-height: 16px;
+  }
+
+  .div1 {
+    flex: 1;
+  }
+
+  .divInner {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+
+  .divContainer {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+
+  .findProviders {
+    font-size: var(--font-size-base);
+    line-height: 16px;
+  }
+
+  .findProvidersWrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+
+  .div5 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+    flex: 1;
+  }
+}
