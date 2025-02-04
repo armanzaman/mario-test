@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inria Sans:ital,wght@0,400;0,700;1,700&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-inria-sans: "Inria Sans";
+
+  /* font sizes */
+  --font-size-base: 16px;
+  --font-size-xl: 20px;
+  --font-size-sm: 14px;
+  --font-size-lgi: 19px;
+  --font-size-5xl: 24px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-lightgray-100: #d1d5db;
+  --color-gray-100: rgba(0, 0, 0, 0);
+  --color-lightslategray-100: #6a89a7;
+  --color-darkslategray-100: #384959;
+  --color-darkslategray-200: #374151;
+  --color-lightsteelblue: #bdddfc;
+  --color-steelblue-100: #2e5077;
+  --color-cadetblue: #4da1a9;
+  --color-gainsboro-100: #e5e7eb;
+  --color-black: #000;
+  --color-darkgray: #adaebc;
+
+  /* Gaps */
+  --gap-6xl: 25px;
+  --gap-base: 16px;
+  --gap-lgi: 19px;
+  --gap-5xl: 24px;
+  --gap-lg: 18px;
+  --gap-smi: 13px;
+  --gap-19xl: 38px;
+
+  /* Paddings */
+  --padding-48xl: 67px;
+  --padding-14xl: 33px;
+  --padding-5xl: 24px;
+  --padding-xl: 20px;
+  --padding-16xl: 35px;
+  --padding-15xl: 34px;
+  --padding-46xl: 65px;
+  --padding-base: 16px;
+  --padding-246xl: 265px;
+  --padding-lg: 18px;
+  --padding-lgi: 19px;
+  --padding-9xl: 28px;
+  --padding-9xs: 4px;
+  --padding-61xl: 80px;
+  --padding-21xl: 40px;
+  --padding-29xl: 48px;
+  --padding-58xl: 77px;
+  --padding-136xl: 155px;
+  --padding-sm: 14px;
+  --padding-13xl: 32px;
+  --padding-4xs: 9px;
+  --padding-113xl: 132px;
+  --padding-28xl: 47px;
+  --padding-23xl: 42px;
+  --padding-117xl: 136px;
+  --padding-mini: 15px;
+  --padding-12xs: 1px;
+  --padding-7xs: 6px;
+  --padding-xs: 12px;
+  --padding-2xl: 21px;
+  --padding-3xs: 10px;
+
+  /* Border radiuses */
+  --br-5xs: 8px;
+  --br-9980xl: 9999px;
+  --br-xs: 12px;
+}
